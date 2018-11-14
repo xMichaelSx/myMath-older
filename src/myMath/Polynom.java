@@ -392,5 +392,30 @@ public class Polynom implements Polynom_able{
 		}
 		return str;
 	}
+	
+	public double areaneative(double x0, double x1, double eps) {
+
+		if (x1 == x0)
+			return 0; // no area
+
+		double max = Math.max(x1, x0);
+		double min = Math.min(x1, x0);
+
+		int numOfSquares = (int)((max-min)/eps);		
+		double sum = 0;
+		for (int i = 0; i < numOfSquares; i++) {
+			if(this.f(min)<0) {
+			sum = sum+(eps*f(min));
+			}
+			min = min+eps;
+		}
+		sum=Math.abs(sum);
+		return sum;
+	}
+	
+	public void graf() {
+		LinePlotTest frame = new LinePlotTest(this);
+        frame.setVisible(true);
+	}
 
 }
