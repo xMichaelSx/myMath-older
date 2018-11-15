@@ -1,7 +1,11 @@
 package myMath;
 
 import java.util.Iterator;
+<<<<<<< HEAD
 
+=======
+import de.erichseifert.gral.plots.colors.Grayscale;
+>>>>>>> f3b6715887ce7de6df896240799e0710da80deb7
 /**
 // * This interface represents a general Polynom: f(x) = a_1X^b_1 + a_2*X^b_2 ... a_n*Xb_n,
 // *where: a_1, a_2 ... a_n are real numbers and b_1<b_2..<b_n >=0 are none negative integers (naturals)

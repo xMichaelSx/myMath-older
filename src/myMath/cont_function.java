@@ -1,5 +1,9 @@
 package myMath;
+<<<<<<< HEAD
 
+=======
+import de.erichseifert.gral.plots.colors.Grayscale;
+>>>>>>> f3b6715887ce7de6df896240799e0710da80deb7
 /**
  * The interface represents a continuance function 
  * @author Boaz
