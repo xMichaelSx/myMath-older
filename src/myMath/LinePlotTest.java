@@ -16,11 +16,7 @@ package myMath;
 	        
 	        DataTable data = new DataTable(Double.class, Double.class);
 	        DataTable data2 = new DataTable(Double.class, Double.class);
-<<<<<<< HEAD
 	        for (double x = -20.0; x <= 16; x+=0.01) {
-=======
-	        for (double x = -2.0; x <= 6; x+=0.01) {
->>>>>>> f3b6715887ce7de6df896240799e0710da80deb7
 	            double y = p.f(x);
 	            data.add(x, y);
 	            if(y>p.f(x+0.01)&& y>p.f(x-0.01)) {
